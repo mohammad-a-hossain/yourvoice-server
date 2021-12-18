@@ -1,0 +1,36 @@
+{
+  "name": "serverside",
+  "version": "1.0.0",
+  "description": "yourvoice backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "mohammad abu hossain",
+  "license": "MIT",
+  "dependencies": {
+    "12": "^1.0.2",
+    "15": "^0.0.0",
+    "@sendgrid/mail": "^7.6.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "express-validator": "^6.12.2",
+    "formidable": "^1.2.2",
+    "google-auth-library": "^7.10.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.9",
+    "morgan": "^1.10.0",
+    "node": "^16.11.1",
+    "nodemon": "^2.0.13",
+    "nvm": "^0.0.4",
+    "shortid": "^2.2.16",
+    "slugify": "^1.6.1",
+    "string-strip-html": "^9.0.2"
+  }
+}
